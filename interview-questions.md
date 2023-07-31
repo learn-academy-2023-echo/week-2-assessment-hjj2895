@@ -41,7 +41,7 @@ Researched answer: A method is a property of an object or class that holds a fun
 
 Your answer: Hoisting is the process which a variable and a function can be used before they are declared. 
 
-Researched answer: Hoisting is a concept that describes the behavior of moving variable and function declarations at the top of the scope before code is executed. There are two types of hoisting which include variable hoisting and function hoisting. In variable hoisting, the keyword 'var' is hoisted however, 'let' and 'const' will not show the same behavior although they are hoisted. When the 'var' keyword is used, the variable will be hoisted to the global scope which allows for the variable to accessed before being declared. However,when using the 'let' and 'const' keywords, the variable cannot be accessed before it is declared. In function hoisting, a function that is declared will be hoisted to the top of the scope. This allows for the function to be called before the declaration. However, a function expression will cause an error since only declarations are hoisted.
+Researched answer: Hoisting is a concept that describes the behavior of moving variable and function declarations at the top of the scope before code is executed. There are two types of hoisting which include variable hoisting and function hoisting. When the 'var' keyword is used, the variable will be moved to the top of the scope which allows for the variable to accessed before being declared. However, when using the 'let' and 'const' keywords, the variable cannot be accessed before it is declared. In function hoisting, a function that is declared will be moved to the top of the scope. This allows for the function to be called before the declaration. 
 
 ## Looking Ahead: Terms for Next Week
 
@@ -49,10 +49,10 @@ Research and define the following terms to the best of your ability.
 
 1. Component: is a type of function that combine HTML and JavaScript logic and is resuable.
 
-2. Spread operator: is a syntax which allows the elements of an iterable object such as an array to be unpacked into a list. It can be used to copy an array or merge multiple arrays into one array. 
+2. Spread operator: allows an iterable object such as an array to be expanded into individual elements. It can be used to copy an array or merge multiple arrays into one array. 
 
 3. React state: is an object that contains data and information that belong to the component. 
 
-4. React props: arguments that are passed into components. 
+4. React props: are properties that are used to pass information from one component to another. 
 
-5. DOM events: respond to a running code when the user does something on a browser such as clicking, scrolling or printing. 
+5. DOM events: are signals when the user does something on a browser such as clicking, scrolling or printing. 
